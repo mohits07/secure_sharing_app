@@ -1123,7 +1123,7 @@ function isSaidUser(req, res, next) {
   });
 }
 
-var port = process.env.PORT  || "3100";
+var port = process.env.PORT  || 3100;
 
 app.listen(port, process.env.IP, function () {
   console.log(port);
