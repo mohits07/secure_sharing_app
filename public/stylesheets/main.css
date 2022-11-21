@@ -1,0 +1,78 @@
+
+.delete-form{
+    display: inline;
+}
+
+body{ 
+    padding-top: 50px; 
+}
+
+/* .gallery img{
+    height: 200px;
+    width: 100%;
+} */
+
+.index_pg img{
+    height: 200px;
+    width: auto;
+}
+
+.icon-start{
+    height: 1em;
+    width: auto;
+}
+
+/* Google Maps */
+#map{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.list-group{
+    font-size: 1.25em;
+}
+
+.header-msg{
+    font-weight: 300;
+}
+
+.navbar_bg{
+    background-color: #000;
+    color: #fff;
+}
+
+.active {
+    background-color: #0d253e;
+}
+
+.nav-item {
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 2px;
+    border-left: solid #333 0.009px;
+    border-right: solid #333 0.009px;
+}
+
+.nav-item:hover {
+    /* background-color: #d2932c; */
+    font-weight: 600;
+    color: rgba(255,255,255,1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(133, 85, 85, 0.9);
+}
+
+.user-div{
+    float: right;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: #b8823c;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #bc6262, #DBDBDB, #F2F2F2, #ADA996); */
+}
+

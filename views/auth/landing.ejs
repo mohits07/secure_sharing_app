@@ -1,0 +1,17 @@
+<%- include ("../partials/header") %>
+
+<div class="container justify-content-center text-center">
+    <h1 class="mb-1">Secure Transfer</h1>
+ </div>
+
+    <h3 style="text-align:center;">
+        
+        <%if(currentUser){%>
+            <a class="btn btn-lg btn-info" href="/logout">Log out</a> if done.</h2>
+        <%}else{%>
+            <a class="btn btn-lg btn-info" href="/login">Login</a> <br>
+             <a class="btn btn-lg btn-info" href="/register">Sign up</a> <br>
+        <%}%>
+    </h3>
+
+<%- include ("../partials/footer") %>
